@@ -16,7 +16,7 @@ export default function Input() {
 
   function handleSubscription() {
     if (isEmailValid) {
-      window.location.href = 'http://localhost:3000/subscribed'
+      window.location.href = 'https://newsletter-igo.vercel.app/subscribed'
     }
   }
 
